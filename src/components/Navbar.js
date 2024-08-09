@@ -10,14 +10,14 @@ const Navbar = () => {
     <nav className="navbar">
       <ul>
         <div className="navbar-link-group"> 
-          <li><Link to="skills-marker" smooth={true} duration={500}>Skills</Link></li>
-          <li><Link to="background-marker" smooth={true} duration={500}>Background</Link></li>
+          <li><Link to="skills-marker" smooth={true} duration={500}>SKILLS</Link></li>
+          <li><Link to="background-marker" smooth={true} duration={500}>BACKGROUND</Link></li>
         </div>
         
         <li><Link to="home" smooth={true} duration={500}> <img src={image("./avatar.png")} className="avatar" alt="avatar"/></Link></li>
         <div className="navbar-link-group"> 
-          <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-          <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+          <li><Link to="projects" smooth={true} duration={500}>PROJECTS</Link></li>
+          <li><Link to="contact" smooth={true} duration={500}>CONTACT</Link></li>
         </div>
       </ul>
     </nav>

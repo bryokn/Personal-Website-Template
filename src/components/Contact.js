@@ -56,8 +56,8 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="map-container">
-          {/* Replace this iframe with your Google Maps embed code. */}
+        {/* <div className="map-container">
+          {/* Replace this iframe with your Google Maps embed code. *
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1547017.3208094544!2d-74.88767352569693!3d40.77262035228985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c286d6e07696fb%3A0xca34053f4678c888!2sNew%20York%20Metropolitan%20Area!5e0!3m2!1sen!2sus!4v1722443759323!5m2!1sen!2sus"
             width="600"
@@ -68,7 +68,7 @@ const Contact = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </div>
   );
