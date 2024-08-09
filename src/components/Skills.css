@@ -2,7 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  
+  font-family: 'Fonarto', sans-serif;
+  font-weight: normal;
 }
 
 .skills-container {
@@ -98,7 +99,7 @@
     background: #6200ea;
     border-radius: 3.5rem;
     color:white;
-    box-shadow: 0.2rem 0.2rem 3rem 0.1rem mediumpurple;
+    box-shadow: 0.2rem 0.2rem 3rem 0.1rem mediumpurple; 
   }
 }
   

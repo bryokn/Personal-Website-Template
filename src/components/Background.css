@@ -23,21 +23,24 @@
     display: flex;
     justify-content: center;
     width: fit-content;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
+    /* background-color: #290856; */
     background-color: #6200ea;
-    gap: 0.5rem;
+    gap: 2rem;
+    font-family: 'Lil Grotesk', sans-serif;
 
     button {
         all: unset;
         padding: 0.5rem;
-        color: white;
+        /* color: white; */
+        color:greenyellow;
         border: 0.2rem solid white;
         border-radius: 0.3rem;
         margin: 0.1rem;
     }
 }
 .background-nav .selected {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 .background-content {
