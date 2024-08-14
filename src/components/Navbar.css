@@ -1,18 +1,31 @@
-.navbar {
+/* .navbar {
   background-color: #6200ea;
   padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding-right: 40rem; */
   z-index: 1000;
   top: 0;
   position: sticky;
   width: 100%;
-  font-family: 'Fonarto XT', sans-serif;
-  font-weight: bold;
+  font-family: 'Fonarto', sans-serif;
+  font-weight: normal;
   /* font-style: italic; */
-  /* color: rgb(196, 48, 48); */
+  /* color: rgb(196, 48, 48); *
+ */
+
+.navbar {
+  background: linear-gradient(to top, #6200ea, #b388ff);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  top: 0;
+  position: sticky;
+  width: 100%;
+  font-family: 'Fonarto', sans-serif;
+  font-weight: normal;
 }
 
 .navbar ul {
@@ -20,21 +33,21 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  max-width: 50rem;
+  max-width: 40rem;
   justify-content: space-between;
   margin: 5px auto;
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
 .navbar-link-group {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
 
 .navbar ul li {
   display: inline;
-  padding: 0.7rem;
+  padding: 0.4rem;
 }
 
 .navbar ul li:hover {
@@ -51,7 +64,7 @@
 .navbar ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.3rem;
+  /* font-size: 1.4rem; */
 }
 
 /* .navbar ul li a:hover {

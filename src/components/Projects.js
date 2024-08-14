@@ -20,6 +20,24 @@ const projects = [
     technologies: ['Python', 'Docker'],
     summary: 'Developed a QR code generator using Python and Docker',
     github: 'https://github.com/KoustubhSahu/qrprog',
+  },
+  {
+    title: "QR Code Generat",
+    technologies: ['Python', 'Docker'],
+    summary: 'Developed a QR code generator using Python and Docker',
+    github: 'https://github.com/KoustubhSahu/qrprog',
+  },
+  {
+    title: "QR Code Generator",
+    technologies: ['Python', 'Docker'],
+    summary: 'Developed a QR code generator using Python and Docker',
+    github: 'https://github.com/KoustubhSahu/qrprog',
+  },
+  {
+    title: "QR Code Generator",
+    technologies: ['Python', 'Docker'],
+    summary: 'Developed a QR code generator using Python and Docker',
+    github: 'https://github.com/KoustubhSahu/qrprog',
   }
   
 ];
